@@ -1,0 +1,68 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #dadada;
+  font-size: 16px;
+  font-family: system-ui, sans-serif;
+}
+
+.container {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  max-width: 1440px;
+}
+.container h1{
+  padding: 5%;
+}
+.preview {
+  min-height: 250px;
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: serif;
+  text-transform: none;
+  padding-top: 3%;
+  padding-left: 3%;
+  text-align: left;
+  margin-bottom: 5%;
+}
+.baku {
+  background-image: url(../images/baku.jpg);
+}
+.london {
+  background-image: url(../images/london.png);
+}
+.madrid {
+  background-image: url(../images/madrid.jpg);
+}
+.rome {
+  background-image: url(../images/rome.jpg);
+}
+
+.preview h1 {
+  padding: 1% 1%;
+  font-size: 1.4em;
+  letter-spacing: 0px;
+  width: 100%;
+}
+
+/* code added to create two-column design */
+@media screen and (min-width: 575px) {
+  .preview {
+    margin: 1%;
+    width: 48%;
+    float:left;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .preview {
+    width: 23%;
+  }
+}
