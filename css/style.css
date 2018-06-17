@@ -58,6 +58,7 @@ body {
   width: 375px;
   height: 195px;
   padding-left: 46px;
+  position: fixed;
 }
 
 p {
@@ -110,7 +111,8 @@ p.times {
   width: 375px;
   float: left;
 }
-.bus:hover {
+/* mouse over */
+.bus:hover  {
   background-color: #F4F4F4;
 }
 .bottom {
