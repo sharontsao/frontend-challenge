@@ -119,19 +119,3 @@ p.times {
   top: 618px;
 
 }
-
-
-/* code added to create two-column design */
-@media screen and (min-width: 575px) {
-  .preview {
-    margin: 1%;
-    width: 48%;
-    float:left;
-  }
-}
-
-@media screen and (min-width: 991px) {
-  .preview {
-    width: 23%;
-  }
-}
