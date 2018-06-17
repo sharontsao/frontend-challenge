@@ -1,56 +1,125 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 body {
-  background-color: #dadada;
-  font-size: 16px;
-  font-family: system-ui, sans-serif;
+  font-size: 20px;
+  font-family: "SF Pro Text", sans-serif;
+  color: #000000;
 }
 
 .container {
-  font-size: 0.8em;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  max-width: 1440px;
-}
-.container h1{
-  padding: 5%;
-}
-.preview {
-  min-height: 250px;
-  width: 100%;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  font-family: serif;
-  text-transform: none;
-  padding-top: 3%;
-  padding-left: 3%;
-  text-align: left;
-  margin-bottom: 5%;
-}
-.baku {
-  background-image: url(../images/baku.jpg);
-}
-.london {
-  background-image: url(../images/london.png);
-}
-.madrid {
-  background-image: url(../images/madrid.jpg);
-}
-.rome {
-  background-image: url(../images/rome.jpg);
+  width: 375px;
+  position: fixed;
 }
 
-.preview h1 {
-  padding: 1% 1%;
-  font-size: 1.4em;
-  letter-spacing: 0px;
-  width: 100%;
+.chicago {
+  width: 375px;
+  height: 370px;
+  position: absolute;
 }
+.statusbar {
+  position: absolute;
+  width: 375px;
+}
+.pin {
+  position: absolute;
+  width: 94px;
+  margin: 100px 220px;
+}
+.seg {
+  position: absolute;
+  width: 375px;
+  top: 321px;
+}
+.search {
+  position: absolute;
+  width: 359px;
+  margin: 30px 8px;
+}
+.preview {
+  position: relative;
+  top: 370px;
+  line-height: 1.01em;
+}
+.stop {
+  border-bottom-style: solid;
+  border-bottom-color: #a1a1a1;
+  border-bottom-width: 1px;
+  background-color: #F8F8F8;
+  padding-top: 10px;
+}
+.stop p {
+  margin-left: 46px;
+  margin-bottom: 2px;
+}
+.lines {
+  overflow: auto;
+  width: 375px;
+  height: 195px;
+  padding-left: 46px;
+}
+
+p {
+  font-size: 0.65em;
+  font-weight: lighter;
+
+}
+h2 {
+ font-size: 0.6em;
+}
+
+h3 {
+  float: left;
+  color: #FF3B30;
+}
+h4 {
+  font-size: 0.85em;
+  margin-left: 44px;
+}
+.line p {
+  margin-left: 44px;
+}
+.freq {
+  display: inline-block;
+  width: 160px;
+}
+.times {
+  display: inline-block;
+}
+p.times {
+  color: #007AFF;
+}
+.busstopicon {
+  float:left;
+  width: 20px;
+  margin-left: 16px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.heart {
+  float: right;
+  width: 25px;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+.line {
+  border-bottom: 0.1px solid #a1a1a1;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  width: 375px;
+  float: left;
+}
+.bus:hover {
+  background-color: #F4F4F4;
+}
+.bottom {
+  position: fixed;
+  width: 375px;
+  top: 618px;
+
+}
+
 
 /* code added to create two-column design */
 @media screen and (min-width: 575px) {
