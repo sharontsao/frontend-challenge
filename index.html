@@ -14,18 +14,26 @@
           <img class="chicago" src="images/Chicago.png" alt="map" />
           <img class="statusbar" src="images/stat.png" alt="status bar" />
           <img class="pin" src="images/pin.png" alt="youarehere" />
-          <img class="seg" src="images/tabbar.png" alt="nearby" />
-          <img class="search" src="images/Search.png" alt="search" />
           </div>
+        <div class="search">
+          <input type="text" placeholder="Where do you want to go?">
+          <img class="searchicon" src="images/search.png" alt="searchicon" />
+        </div>
+          <div class="container1">
+            <div class="segmented">
+              <label class="checked"><input type="radio" name="segmented" checked /> Nearby</label>
+              <label><input type="radio" name="segmented" /> Favorites</label>
+            </div>
+        </div>
       <section class="preview">
           <img class="heart" src="images/heart.png" alt="heart" />
-          <img class="busstopicon" src="images/stop.png" alt="busstop" />
+          <img class="stationicon" src="images/stop.png" alt="busstop" />
           <div class="stop">
           <h1>Washington/State</h1>
           <p>2 min walk</p>
           </div>
-      <section class="lines">
-        <div class="line">
+      <ul class="lines">
+        <li class="line">
           <h2>EASTBOUND</h2>
           <div class="bus">
           <h3>60</h3> <h4>Randolph/Harbor Dr </h4>
@@ -37,16 +45,16 @@
                 <p class="freq">Every 10 minutes</p>
                 <p class="times">9:50AM</p>
             </div>
-          </div>
-          <div class="line">
+          </li>
+          <li class="line">
             <h2>NORTHBOUND</h2>
             <div class="bus">
             <h3>151<h3> <h4>Devon/Clark</h4>
                 <p class="freq">Every 16 minutes</p>
                 <p class="times">9:46AM</p>
               </div>
-            </div>
-            <div class="line">
+            </li>
+            <li class="line">
               <h2>SOUTHBOUND</h2>
               <div class="bus">
               <h3>J14</h3> <h4>103rd/Stony Island</h4>
@@ -58,15 +66,15 @@
                     <p class="freq">Every 10 minutes</p>
                     <p class="times">9:50AM</p>
               </div>
-              </div>
-              <div class="line">
+            </li>
+              <li class="line">
                 <h2>REROUTE</h2>
                 <div class="bus">
                 <h3>6x</h3> <h4>Jackson Park Express</h4>
                     <p class="freq">N/A</p>
                   </div>
-                </div>
-                  <div class="line">
+                </li>
+                  <li class="line">
                   <h2>OUT OF SERVICE</h2>
                   <div class="bus">
                   <h3>4</h3> <h4>Cottage Grove</h4>
@@ -80,13 +88,15 @@
                         <h3>157</h3> <h4>Streeterville/Taylor</h4>
                             <p class="freq">Resumes 6:00am</p>
                         </div>
-                      </div>
-          </section>
+                      </li>
+                    </ul>
           </section>
           <section class="footer">
-            <img class="bottom" src="images/bottom.png" alt="bottom nav" />
+            <div class="bottom">
+              <img class="stationsicon" src="images/stationsicon.png" alt="stations icon" />
+              <img class="linesicon" src="images/linesicon.png" alt="lines icon" />
+            </div>
           </section>
         </section>
-      </section>
     </body>
 </html>
