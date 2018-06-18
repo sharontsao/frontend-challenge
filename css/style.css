@@ -124,8 +124,8 @@ body {
   width: 375px;
   height: 195px;
   padding-left: 46px;
-
   background-color: #fff;
+  line-height: 1em;
 }
 
 p {
@@ -144,22 +144,16 @@ h3 {
 h4 {
   font-size: 0.85em;
   margin-left: 44px;
-}
-.line p {
-  margin-left: 44px;
-}
-.freq {
-  display: inline-block;
-  width: 160px;
-}
-.t {
-  display: inline-block;
+  margin-bottom: 2px;
 }
 
-div.t {
-  color: #007aff;
+.bus p {
+  color:#007aff;
+  line-height: 1em;
+  font-size: 0.60em;
+  margin-left: 44px;
 }
-div.j {
+.grey p{
   color: #a1a1a1;
 }
 .stationicon {
@@ -169,22 +163,31 @@ div.j {
   margin-right: 10px;
   margin-top: 10px;
 }
+
 .heart {
   float: right;
   width: 25px;
   margin-right: 16px;
   margin-top: 10px;
 }
+
 .line {
   border-bottom: 0.5px solid #a1a1a1;
   padding-bottom: 2px;
   padding-top: 2px;
-  width: 375px;
+  margin-bottom: 4px;
+  width: 340px;
+}
+.t {
+  display:inline-block;
+  text-align: right;
+
 }
 /* mouse over */
 .bus:hover  {
   background-color: #F4F4F4;
 }
+
 .footer {
   position: fixed;
   background-color:#F8F8F8;
