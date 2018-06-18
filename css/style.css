@@ -172,6 +172,14 @@ h4 {
   margin-top: 10px;
 }
 
+/* mouse over */
+.bus:hover  {
+  background-color: #F4F4F4;
+}
+.bus {
+  float:left;
+  width: 330px;
+}
 .line {
   float:left;
   border-bottom: 0.5px solid #a1a1a1;
@@ -188,10 +196,7 @@ h4 {
   width: 95px;
   text-align:right;
 }
-/* mouse over */
-.bus:hover  {
-  background-color: #F4F4F4;
-}
+
 
 .footer {
   position: fixed;
@@ -205,8 +210,10 @@ h4 {
 .stationsicon {
   width:125px;
   margin-left: 40px;
+  cursor: pointer;
 }
 .linesicon {
+  cursor: pointer;
   width:125px;
   margin-left: 45px;
 }
