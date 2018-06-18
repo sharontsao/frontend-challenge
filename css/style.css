@@ -124,7 +124,7 @@ body {
   width: 375px;
   height: 195px;
   padding-left: 46px;
-  position: fixed;
+
   background-color: #fff;
 }
 
@@ -152,11 +152,15 @@ h4 {
   display: inline-block;
   width: 160px;
 }
-.times {
+.t {
   display: inline-block;
 }
-p.times {
-  color: #007AFF;
+
+div.t {
+  color: #007aff;
+}
+div.j {
+  color: #a1a1a1;
 }
 .stationicon {
   float:left;
