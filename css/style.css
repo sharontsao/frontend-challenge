@@ -99,7 +99,6 @@ body {
     margin:0;
     position: absolute;
 }
-
 .preview {
   position: absolute;
   top: 370px;
@@ -149,7 +148,7 @@ h4 {
 
 .bus p {
   color:#007aff;
-  line-height: 1em;
+  line-height: 1.2em;
   font-size: 0.60em;
   margin-left: 44px;
 }
@@ -196,8 +195,6 @@ h4 {
   width: 95px;
   text-align:right;
 }
-
-
 .footer {
   position: fixed;
   background-color:#F8F8F8;
